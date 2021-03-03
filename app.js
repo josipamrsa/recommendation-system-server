@@ -1,6 +1,6 @@
 //----KONFIGURACIJA----//
 const express = require('express');
-require('express-async-errors');
+/* require('express-async-errors'); */
 const app = express();
 
 //----CONTROLLERI----//
