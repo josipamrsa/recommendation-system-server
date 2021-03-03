@@ -12,7 +12,11 @@ const recommendRouter = require('./controllers/recommend');
 app.use(express.json());
 app.use(express.static('build'));
 
-//----INICIJALIZACIJA----//
+//----RUTE----//
+app.get('/', (req, res) => {
+    res.send('<h1>Recommendation engine</h1>');
+});
+
 app.use('/api/load', loadDataRouter);
 app.use('/api/locate', locateRouter);
 app.use('/api/recommendation', recommendRouter);
