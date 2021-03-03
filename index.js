@@ -6,6 +6,6 @@ const PORT = 3001;
 const server = http.createServer(app);
 
 //----SERVER----//
-server.listen(PORT, () => {
+server.listen(process.env.PORT || PORT, () => {
   console.log(`Server je pokrenut na portu ${PORT}`);
 });
