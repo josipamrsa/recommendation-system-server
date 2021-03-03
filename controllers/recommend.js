@@ -10,14 +10,18 @@ recommendRouter.post('/', async (req, res) => {
     candidateList = req.body.locirani;
     let reviews = [];
 
+    console.log(candidateList);
+
     // za svakog potencijalnog kandidata dohvati osnovne podatke 
     // te izračunaj similarity score na temelju prethodnih recenzija
     candidateList.forEach(ca => {
+        console.log("kandidat: " + ca.dist);
         reviews.push({
             id: ca.id,
             name: ca.name,
             location: ca.location,
             similarity: recommenderEngine.vectorizeUserReviews(ca.reviews),
+            distance: ca.dist
         });
     });
 

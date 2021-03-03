@@ -30,7 +30,12 @@ locateRouter.post('/', async (req, res) => {
         candidateList.forEach(ca => {
             let dist = locator.determineInRadius(ca.location, [loc.latitude, loc.longitude], loc.radius);
             if (dist) {
-                candidates.push(ca);
+                candidates.push(
+                    {
+                        ...ca,
+                        dist: locator
+                            .calculateInRadius(ca.location, [loc.latitude, loc.longitude], loc.radius)
+                    });
             };
         });
 
@@ -61,7 +66,7 @@ locateRouter.put('/', (req, res) => {
         if (err) {
             res.status(404).send({ error: "No file found!" })
         }
-    }); 
+    });
 
     // vrati novu listu kandidata
     res.json(candidateList);

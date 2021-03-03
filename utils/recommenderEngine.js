@@ -68,17 +68,22 @@ const compareReviews = (data, query) => {
             id: rev.id,
             name: rev.name,
             location: rev.location,
-            score: candidateScore
+            score: candidateScore,
+            distance: rev.distance
         }
         candidates.push(candidate);
     });
 
     // sortiraj prema sličnosti
     candidates.sort((a, b) => {
-        var keyA = a.score,
-            keyB = b.score;
-        if (keyA < keyB) return 1;
-        if (keyA > keyB) return -1;
+        // najsličniji po rezultatu
+        if (a.score < b.score) return 1;
+        if (a.score > b.score) return -1;
+
+        // najmanja udaljenost
+        if (a.distance > b.distance) return 1;
+        if (a.distance < b.distance) return -1;
+
         return 0;
     });
 
