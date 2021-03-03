@@ -1,0 +1,111 @@
+[
+    {
+        "query": "a fish or meat restaurant perhaps",
+        "rating": 4.5
+    },
+
+    {
+        "query": "where can I eat a good steak or grill?",
+        "rating": 3
+    },
+
+    {
+        "query": "I'd love to try unconventional restaurants",
+        "rating": 2.5
+    },
+
+    {
+        "query": "point me to a nice bakery to satisfy my sweet tooth!",
+        "rating": 4.5
+    },
+
+    {
+        "query": "I'd love to visit a nice cafe, where I can possibly eat some cake or a pastry",
+        "rating": 3.5
+    },
+
+    {
+        "query": "a good nightclub or a pub",
+        "rating": 5
+    },
+
+    {
+        "query": "a sports pub please - there is a game I'd like to watch tonight!",
+        "rating": 3.5
+    },
+
+    {
+        "query": "some nice hiking trails, and maybe a good bar to relax after a walk",
+        "rating": 2
+    },
+
+    {
+        "query": "show me a hidden nature spot to visit",
+        "rating": 3.5
+    },
+
+    {
+        "query": "We love to explore nature, are there any interesting parks or trails in this area?",
+        "rating": 4.5
+    },
+
+    {
+        "query": "History geeks! Please give us your best recommendation on hidden monuments in your area!",
+        "rating": 5
+    },
+
+    {
+        "query": "Hey! Any interesting museums?",
+        "rating": 4
+    },
+
+    {
+        "query": "We'd love to visit some famous spots in this city - perhaps somewhere where a movie or a tv-show was shot??",
+        "rating": 4.5
+    },
+
+    {
+        "query": "Asian, indian or any other exotic food restaurant?",
+        "rating": 4.5
+    },
+
+    {
+        "query": "a good beer joint?",
+        "rating": 4
+    },
+
+    {
+        "query": "any restaurants that combine wine tasting and activities like painting?",
+        "rating": 3.5
+    },
+
+    {
+        "query": "nice sunbathing or swimming spots? perhaps with a nice cafe/coffe shop",
+        "rating": 4.5
+    },
+
+    {
+        "query": "a nice bar that possibly overlooks at the sea",
+        "rating": 2.5
+    },
+
+    {
+        "query": "any hidden beaches? or spots to take a dip in?",
+        "rating": 4.5
+    },
+
+    {
+        "query": "A PLACE THAT ISN'T BORING",
+        "rating": 4.5
+    },
+
+    {
+        "query": "where to eat fish or various seafood?",
+        "rating": 2.5
+    },
+
+    {
+        "query": "fish, seafood - shrimp, oysters, lobster, anything!",
+        "rating": 1.5
+    }
+]

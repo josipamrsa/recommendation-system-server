@@ -1,0 +1,20 @@
+{
+  "name": "recommendation-system",
+  "version": "1.0.0",
+  "description": "Node.js sustav za preporuke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Josipa Mrša",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "faker": "^5.3.1",
+    "geolib": "^3.3.1",
+    "haversine-geolocation": "^1.5.0",
+    "nodemon": "^2.0.7"
+  }
+}
